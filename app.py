@@ -185,7 +185,7 @@ if st.button("Analyze Resumes"):
             file_name="resume_ranking.csv",
             mime="text/csv"
         )
-else:
+    else:
         st.warning(
             "Please enter Job Description and upload resumes."
         )
