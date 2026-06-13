@@ -134,9 +134,9 @@ if st.button("Analyze Resumes"):
                 tfidf_matrix[1:2]
             )[0][0] * 100
 
-            if score >= 30:
+            if score >= 75:
                 status = "Shortlisted"
-            elif score >= 15:
+            elif score >= 30:
                 status = "Consider"
             else:
                 status = "Rejected"
